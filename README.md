@@ -6,6 +6,7 @@
 
 <details open>
 <summary><strong><span style="font-size: 1.25em;">Executive Summary and Overview</span></strong></summary>
+<br>
 
 The PAN Card Validation project ensures that Indian Permanent Account Numbers (PAN) from a raw CSV dataset are cleaned, validated, and categorized according to official compliance standards.  
 The process removes duplicates, standardizes formatting, and applies logical and structural validation using SQL functions and regular expressions in PostgreSQL.  
@@ -20,6 +21,7 @@ The output is:
 ---
 
 ## Table of Contents
+<br>
 
 - [Project Objectives](#project-objectives)
 - [Dataset Overview](#dataset-overview)
@@ -36,6 +38,7 @@ The output is:
 
 <details>
 <summary id="project-objectives"><strong>Project Objectives</strong></summary>
+<br>
 
 - Load and process raw CSV data containing PAN numbers into PostgreSQL.
 - Standardize all PAN numbers to uppercase and remove unwanted spaces.
@@ -50,6 +53,7 @@ The output is:
 
 <details>
 <summary id="dataset-overview"><strong>Dataset Overview</strong></summary>
+<br>
 
 - **Source:** Provided raw CSV file with 10,000 records.
 - **Field(s):** Single column containing PAN numbers.
@@ -71,6 +75,7 @@ The dataset was imported into a PostgreSQL table named `pan_dataset` for process
 
 <details>
 <summary id="data-cleaning-process"><strong>Data Cleaning Process</strong></summary>
+<br>
 
 - Removed null and empty PAN entries.
 - Trimmed leading/trailing spaces using `TRIM()`.
@@ -89,6 +94,7 @@ All cleaning was executed directly within PostgreSQL to ensure consistency and s
 
 <details>
 <summary id="validation-logic"><strong>Validation Logic</strong></summary>
+<br>
 
 **PAN Format Rules:**
 - Exactly 10 characters long
@@ -113,13 +119,11 @@ All cleaning was executed directly within PostgreSQL to ensure consistency and s
 
 <p align="center">
   <img src="visuals/P5.png" alt="Validation Logic" width="600"/>
+</p>
 
 <p align="center">
   <img src="visuals/P6.png" alt="Validation Logic" width="600"/>
-
 </p>
-
-
 
 </details>
 
@@ -127,6 +131,7 @@ All cleaning was executed directly within PostgreSQL to ensure consistency and s
 
 <details>
 <summary id="results-summary"><strong>Results Summary</strong></summary>
+<br>
 
 | Total Records | Valid PANs | Invalid PANs | Filtered Out |
 |--------------:|-----------:|-------------:|-------------:|
@@ -142,6 +147,7 @@ All cleaning was executed directly within PostgreSQL to ensure consistency and s
 
 <details>
 <summary id="technologies-used"><strong>Technologies Used</strong></summary>
+<br>
 
 | Tool / Technology  | Purpose                                        |
 |--------------------|------------------------------------------------|
@@ -156,6 +162,7 @@ All cleaning was executed directly within PostgreSQL to ensure consistency and s
 
 <details>
 <summary id="folder-structure"><strong>Folder Structure</strong></summary>
+<br>
 
 ```bash
 pan-card-validation-csv-postgresql/
