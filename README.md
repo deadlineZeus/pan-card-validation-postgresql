@@ -106,12 +106,13 @@ All cleaning was executed directly within PostgreSQL to ensure consistency and s
 <details>
 <summary id="results-summary"><strong>Results Summary</strong></summary>
 
-| Metric             | Count  |
-|--------------------|--------|
-| Total Records      | 10,000 |
-| Valid PANs         | 3,186  |
-| Invalid PANs       | 5,839  |
-| Filtered Out       | 975    |
+| Total Records | Valid PANs | Invalid PANs | Filtered Out |
+|--------------:|-----------:|-------------:|-------------:|
+| 10,000        | 3,186      | 5,839        | 975          |
+
+<p align="center">
+  <img src="visuals/P1.png" alt="PAN Validation Results Visualization" width="600"/>
+</p>
 
 </details>
 
