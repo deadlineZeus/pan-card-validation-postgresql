@@ -75,6 +75,10 @@ The dataset was imported into a PostgreSQL table named `pan_dataset` for process
 
 All cleaning was executed directly within PostgreSQL to ensure consistency and scalability.
 
+<p align="center">
+  <img src="visuals/P3.png" alt="Datq Cleaning Process" width="600"/>
+</p>
+
 </details>
 
 ---
