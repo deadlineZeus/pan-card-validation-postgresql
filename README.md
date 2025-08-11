@@ -61,6 +61,10 @@ The output is:
 
 The dataset was imported into a PostgreSQL table named `pan_dataset` for processing.
 
+<p align="center">
+  <img src="visuals/P2.png" alt="Datq Cleaning Process" width="600"/>
+</p>
+
 </details>
 
 ---
