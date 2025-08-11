@@ -103,6 +103,20 @@ All cleaning was executed directly within PostgreSQL to ensure consistency and s
   - Valid PAN subset
   - Final combined table with "Valid" or "Invalid" status
 
+<p align="center">
+  <img src="visuals/P4.png" alt="Validation Logic" width="600"/>
+</p>
+
+<p align="center">
+  <img src="visuals/P5.png" alt="Validation Logic" width="600"/>
+
+<p align="center">
+  <img src="visuals/P6.png" alt="Validation Logic" width="600"/>
+
+</p>
+
+
+
 </details>
 
 ---
