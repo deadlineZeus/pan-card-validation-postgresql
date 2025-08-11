@@ -140,15 +140,28 @@ pan-card-validation-csv-postgresql/
 ├── README.md
 │
 ├── assets/
-│   └── pan_validation_logo.png
+│   └── logo.jpeg
 │
-├── scripts/
-│   └── PAN_Card_Validation_Script_On_PostgreSQL.sql
+├── data/
+│   └── raw_csv_dataset.csv
 │
 ├── documents/
-│   ├── PAN Number Validation - Problem Statement.docx
-│   ├── final_report.docx
-│   └── raw_pan_dataset.csv
+│   └── problem_statement.pdf
+│
+├── report/
+│   └── final_report.docx
+│
+├── script/
+│   └── postgresql_solution_script.sql
+│
+├── visuals/
+│   ├── P1.png
+│   ├── P2.png
+│   ├── P3.png
+│   ├── P4.png
+│   ├── P5.png
+│   └── P6.png
+
 ```
 </details>
 
