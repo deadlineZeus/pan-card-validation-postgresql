@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="PAN Validation Logo" width="600"/>
+  <img src="assets/logo.jpeg" alt="PAN Validation Logo" width="600"/>
 </p>
 
 # PAN Card Validation from CSV using PostgreSQL
