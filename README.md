@@ -226,11 +226,11 @@ pan-card-validation-csv-postgresql/
 <details> <summary id="contact"><strong>Contact</strong></summary>
 <br>
   
-Author: Rajdeep Ray
-Phone: +91 7076918307
-Email: rajdeepray.c48.it@gmail.com
-GitHub: https://github.com/deadlineZeus
-LinkedIn: https://www.linkedin.com/in/rajdeep-ray-3616501b6/
+- Author: Rajdeep Ray
+- Phone: +91 7076918307
+- Email: rajdeepray.c48.it@gmail.com
+- GitHub: https://github.com/deadlineZeus/pan-card-validation-postgresql
+- LinkedIn: https://www.linkedin.com/in/rajdeep-ray-3616501b6/
 
 </details>
 
